@@ -1,4 +1,4 @@
-# Spatial_plotting
+# spatial_plotting
 to plot spatial maps
 to  install basemap: https://www.lfd.uci.edu/~gohlke/pythonlibs/
 
