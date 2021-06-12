@@ -11,3 +11,8 @@ to make virtual environments:
 
     to install requirements: make install_requirements
 
+to make docker file:
+
+to build docker file:
+    
+
