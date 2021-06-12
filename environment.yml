@@ -1,0 +1,5 @@
+name: spatial_plotting
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
