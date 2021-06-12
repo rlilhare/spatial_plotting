@@ -1,4 +1,5 @@
 import os
+os.environ["PROJ_LIB"] = "/opt/conda/bin/proj"
 
 from mpl_toolkits.basemap import Basemap
 
