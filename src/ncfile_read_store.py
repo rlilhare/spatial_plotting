@@ -4,6 +4,11 @@ from netCDF4 import Dataset as NetCDFFile
 
 
 def read_nc_data():
+    """This function reads an input .netcdf file to generate plot
+
+    Returns:
+        This function stores different variables from .netcdf file
+    """
     base_path = os.getcwd()
     air_temp_path = os.path.join(
         base_path, "./data/ERA_Land_mn_ann_air_temp_NRB_1981_2019.nc"

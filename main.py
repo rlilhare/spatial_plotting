@@ -4,6 +4,8 @@ from src.shapefile_read_store import read_shp_file
 
 
 def main():
+    """[summary]
+    """
     lat, lon, temp = read_nc_data()
     map = read_shp_file()
     plot_data(lat, lon, temp, map)
