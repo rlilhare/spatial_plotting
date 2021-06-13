@@ -14,5 +14,29 @@ to make virtual environments:
 to make docker file:
 
 to build docker file:
+
+to generate documentation:
+    pdoc your_project
     
 
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "==1.20.3"
+netCDF4 = "==1.5.6"
+matplotlib = "==3.4.2"
+Pillow = "==8.2.0"
+basemap = {git = "https://github.com/matplotlib/basemap/archive/master.zip"}
+
+[dev-packages]
+isort = "==5.8.0"
+black = "==21.5b2"
+flake8 = "==3.9.2"
+safety = "==1.10.3"
+pdoc3 = "==0.8.1"
+
+[requires]
+python_version = "3.9.1"
